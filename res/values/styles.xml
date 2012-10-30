@@ -1,0 +1,9 @@
+<resources>
+
+    <style name="AppTheme" parent="android:Theme.Light" />
+	<style name="MyTheme.NoTitleBar.CustomBackground" parent="@android:Theme.Black">
+        <item name="android:windowBackground">@drawable/bottom_bg</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+</resources>
